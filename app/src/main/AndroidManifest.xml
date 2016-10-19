@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.usaydemo.a7_frame_demo1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StulogActivity" />
+        <activity android:name=".AdminlogActivity" />
+        <activity android:name=".StuMainActivity" />
+        <activity android:name=".SelectcourseActivity" />
+        <activity android:name=".ChangeinfoActivity" />
+        <activity android:name=".ShowscoresActivity" />
+        <activity android:name=".ShowcourseActivity" />
+        <activity android:name=".AdmMainActivity" />
+        <activity android:name=".PAddStuActivity" />
+        <activity android:name=".PChgStuActivity" />
+        <activity android:name=".PDelStuActivity" />
+        <activity android:name=".PAddCouActivity" />
+        <activity android:name=".PChgCouActivity" />
+        <activity android:name=".PDelCouActivity" />
+        <activity android:name=".PAddAchActivity" />
+        <activity android:name=".PSeeAchActivity" />
+        <activity android:name=".PSeeAllScoreActivity" />
+        <activity android:name=".PAddTchActivity" />
+        <activity android:name=".PChgTchActivity" />
+        <activity android:name=".PDelTchActivity" />
+        <activity android:name=".PTolTchActivity"></activity>
+    </application>
+
+</manifest>
